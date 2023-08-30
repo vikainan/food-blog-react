@@ -4,13 +4,13 @@ export default function Navbar() {
   return (
     <nav>
       <div className="icon">
-        <button>inicio</button>
+        <a href="#">inicio</a>
       </div>
       <div className="icon">
-        <button>artigos</button>
+        <a href="#">artigos</a>
       </div>
       <div className="icon">
-        <button>contato</button>
+        <a href="#">contato</a>
       </div>
     </nav>
   );

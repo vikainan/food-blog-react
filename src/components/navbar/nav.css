@@ -1,5 +1,6 @@
 nav {
-  background-color: blue;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+  background-color: lightgray;
   height: 50px;
   display: flex;
   width: 60%;
@@ -14,10 +15,11 @@ nav {
 
 .icon {
   margin: auto;
-}
-
-.icon button {
-  background-color: green;
-  height: 35px;
+  height: auto;
+  padding: 5px;
+  width: 70px;
+  background-color: darkgray;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+  text-align: center;
 }
