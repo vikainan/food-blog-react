@@ -1,0 +1,23 @@
+nav {
+  background-color: blue;
+  height: 50px;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  border-radius: 25px;
+  flex-direction: row;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.icon {
+  margin: auto;
+}
+
+.icon button {
+  background-color: green;
+  height: 35px;
+  border-radius: 15px;
+}
